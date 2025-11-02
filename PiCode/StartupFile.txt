@@ -1,0 +1,7 @@
+#runs on startup for the pi
+#remove comments if running this on pi. 
+--------
+source /home/caitlin/miniforge3/bin/activate
+conda activate ultralytics-env
+
+python3 /home/caitlin/Documents/headlessNotif.py
